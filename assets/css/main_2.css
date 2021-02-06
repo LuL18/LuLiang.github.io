@@ -2964,8 +2964,16 @@ input, select, textarea {
 					height: 30vw;
 				}
 
+			.gallery a.landscape_1 {
+				width: 100%;
+			}
+				.gallery a.landscape_1 img {
+						height: 100%;
+				}
+
+
 			.gallery a.portrait img {
-				height: 30vw;
+				width: 30vw;
 			}
 
 		.gallery .modal {
@@ -3105,6 +3113,9 @@ input, select, textarea {
 			.gallery a.landscape img {
 				height: 25rem;
 			}
+			.gallery a.landscape_1 img {
+				height: 25rem;
+			}
 
 			.gallery a.portrait img {
 				height: 25rem;
@@ -3135,6 +3146,9 @@ input, select, textarea {
 					.gallery a.landscape img {
 						height: 20rem;
 					}
+					.gallery a.landscape_1 img {
+						height: 25rem;
+					}
 
 					.gallery a.portrait img {
 						height: 30rem;
@@ -3150,6 +3164,10 @@ input, select, textarea {
 			}
 
 			.gallery a.landscape img {
+				height: 12rem;
+			}
+
+			.gallery a.landscape_1 img {
 				height: 12rem;
 			}
 
