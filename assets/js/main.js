@@ -9,6 +9,26 @@
 	var	$window = $(window),
 		$body = $('body');
 
+	///Back to top button
+		$(function() {
+		  var $win = $(window);
+		  var $backToTop = $('.js-back-to-top');
+		  // up to 100px to the top, show the bottom
+		  $win.scroll(function() {
+		    if ($win.scrollTop() > 100) {
+		      $backToTop.show();
+		    } else {
+		      $backToTop.hide();
+		    }
+		  });
+		  // click- to the top
+		  $backToTop.click(function() {
+		    $('html, body').animate({
+		      scrollTop: 0
+		    }, 200);
+		  });
+		});
+
 	// Breakpoints.
 		breakpoints({
 			default:   ['1681px',   null       ],
@@ -204,5 +224,6 @@
 						}, 275);
 
 					});
+
 
 })(jQuery);

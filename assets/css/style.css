@@ -214,6 +214,29 @@ Start of Page head section [*3]
 	top: 100px;
 	margin-bottom: 100px;
 }
+
+.page-head-section-main {
+	background-image: url(../img/banner/banner-3.png);
+
+	padding-bottom: 420px;
+	background-position: 50% 0%;
+	position: relative;
+	background-repeat: no-repeat;
+	overflow: visible;
+	top: 100px;
+	margin-bottom: 100px;
+}
+
+.page-head-section-contact {
+	background-image: url(../img/banner/banner-2.jpg);
+	padding-bottom: 420px;
+	background-position: 50% 0%;
+	position: relative;
+	background-repeat: no-repeat;
+	overflow: visible;
+	top: 100px;
+	margin-bottom: 100px;
+}
 .page-head-overlay,
 .page-head-overlay-2 {
 	background-color: rgb(249, 249, 249);
@@ -501,7 +524,7 @@ button.tab-button.active {
 	position: relative;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	font-size: 20px;
+	font-size: 50px;
 	color: #000;
 }
 .project-description h3 a::before {
@@ -570,63 +593,20 @@ Start of portfolio section
 
 
 
-/*-----------------------------------------------------------------------
-Start of newsletter section [*5]
--------------------------------------------------------------------------*/
-.newsletter-section,
-.achivement-section {
-	background-image: url(../img/banner/news-banner.jpg);
-	padding: 55px 0px 100px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	max-width: 1170px;
-	margin: 0 auto;
-	position: relative;
-}
-.newsletter-title h2 {
-	font-size: 35px;
-}
-.newsletter-section-content {
-	position: relative;
-	text-align: center;
-}
-.newsletter-form {
-	max-width: 590px;
-	margin: 0 auto;
-	padding: 10px;
-	background-color: #fff;
-	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-	position: relative;
-}
-.newsletter-form input {
-	border: none;
-	border-bottom: 2px solid;
-	border-radius: 0;
-	height: 55px;
-}
-.newsletter-form input:focus {
-	border-bottom: 2px solid #e7e7e7;
-}
-.newsletter-form form {
-	width: 100%;
-}
-.newsletter-form .input-group-addon {
-	background-color: transparent;
-	border: none;
-	position: absolute;
-	right: 25px;
-	z-index: 3;
-	top: 15px;
-}
-.newsletter-form .input-group-addon button {
-	background-color: transparent;
-	border: none;
-}
-/*-----------------------------------------------------------------------
-End of newsletter section
--------------------------------------------------------------------------*/
 
+.contact-me {
+	font-size: 19px;
+	font-family: 'Inter', sans-serif;
+	text-align:center;
+	width: 95%;
+	align: center;
+}
 
+.contact-me p {
+	margin-left: 30px;
+	text-align:left;
+	color:#333333;
+}
 
 
 /*-----------------------------------------------------------------------
@@ -770,10 +750,17 @@ Start of about us page
 .breadcrumb {
 	background-color: transparent;
 }
+
+.breadcrumb li{
+	text-decoration:underline
+}
+
+
 .breadcrumb>li+li:before {
-	content: "-";
+	content: "          ";
 	padding: 0px 10px;
 	color: #090909;
+
 
 }
 .about-us-title h2 {
@@ -1117,111 +1104,9 @@ End of testimonial section
 	padding-bottom: 50px;
 }
 /*-----------------------------------------------------------------------
-End of about us page
+End of contact page
 -------------------------------------------------------------------------*/
 
-
-
-/*-----------------------------------------------------------------------
-Start of Blog single page
--------------------------------------------------------------------------*/
-.blog-single-quate blockquote {
-	background-color: #f9f9f9;
-	font-style: italic;
-}
-
-label {
-	color: #626262;
-	cursor: pointer;
-	font-size: 14px;
-	font-weight: 400;
-}
-.comment-form input {
-	border: 1px solid #e5e5e5;
-	height: auto;
-	margin-bottom: 20px;
-	padding: 10px 15px;
-	width: 100%;
-}
-.clear-fix textarea {
-	border: 1px solid #e5e5e5;
-	height: 150px;
-	margin-bottom: 20px;
-	margin-top: 0;
-	padding: 15px;
-	width: 100%;
-}
-.popin-btn,
-.blog-tag-list li a {
-	border: 1px solid #e5e5e5;
-	color: #232323;
-	display: inline-block;
-	font-size: 12px;
-	height: 45px;
-	letter-spacing: 1px;
-	line-height: 45px;
-	padding: 0 30px;
-	text-transform: uppercase;
-}
-
-.comment-form,
-.comment-form-list-pic-text {
-	box-shadow: 0 1px 5px 0 #ccc;
-	padding: 30px;
-	margin-bottom: 20px;
-}
-.comment-form-list {
-	display: inline-block;
-}
-.author-name,
-.author-date,
-.reply-text  {
-	display: block;
-}
-.author-text {
-	overflow: hidden;
-}
-.author-pic {
-	margin-right: 25px;
-}
-.blog-search {
-	position: relative;
-}
-
-.widgettitle {
-	font-size: 26px;
-}
-.badge {
-	background-color: transparent;
-	color: #585858;
-	font-size: 15px;
-}
-
-.rec-img {
-	float: left;
-	margin-right: 10px;
-	margin-bottom: 20px;
-	width: 50%;
-
-}
-.rec-link h3 a {
-	color: #040404;
-	font-size: 15px;
-}
-.rec-nws-meta li a,
-
-.side-tab-img-text {
-	display: inline-block;
-	margin-bottom: 20px;
-	width: 100%;
-}
-.blog-tag-list li a {
-	padding: 0px 15px;
-	margin: 3px 0px;
-}
-/*-----------------------------------------------------------------------
-End of Blog single page
--------------------------------------------------------------------------*/
 .portfolio-single-slide-content .owl-dots {
 	text-align: center;
 	position: absolute;
@@ -1250,4 +1135,23 @@ End of Blog single page
 	margin-top: 30px;
 	font-size: 10px;
 	opacity:0.5;
+}
+
+
+.typing {
+    width: 50em; height: 5em;
+    border-right: 1px solid transparent;
+    animation: typing 5s steps(25, end), blink-caret .75s step-end infinite;
+    word-break: break-all;
+    overflow: hidden;
+}
+/* typing effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 50em; }
+}
+/* cursor */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: currentColor; }
 }

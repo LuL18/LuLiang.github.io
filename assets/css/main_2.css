@@ -3405,7 +3405,7 @@ input, select, textarea {
 
 		#wrapper .copyright {
 			color: rgba(0, 0, 0, 0.25);
-			font-size: 1rem;
+			font-size: 10px;
 			left: 50vw;
 			position: relative;
 			width: 50vw;
@@ -3902,3 +3902,23 @@ input, select, textarea {
 		}
 
 	}
+
+	.back-to-top {
+		  display: none;
+		  position: fixed;
+		  bottom: 20px; /* show at the bottom */
+		  left: 30px; /* show in the left */
+		  z-index: 99; /* show at the top */
+		  font-size: 30px;
+		  outline: none;
+		  background-color: #fff;
+		  color: #fff;
+		  cursor: pointer;
+		  padding: -15px 15px 15px 15px;
+		  border-radius: 30px; /* round */
+		}
+
+		.back-to-top:hover {
+		  background-color: #FFE48C;
+		  color: #FFF;
+		}

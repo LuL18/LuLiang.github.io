@@ -3404,8 +3404,8 @@ input, select, textarea {
 			}
 
 		#wrapper .copyright {
-			color: rgba(0, 0, 0, 0.05);
-			font-size: 1rem;
+			color: rgba(0, 0, 0, 0.3);
+			font-size: 10px;
 			left: 50vw;
 			position: relative;
 			width: 50vw;
@@ -3902,3 +3902,24 @@ input, select, textarea {
 		}
 
 	}
+
+
+	.back-to-top {
+		  display: none; /* 默认是隐藏的，这样在第一屏才不显示 */
+		  position: fixed;
+		  bottom: 20px; /* show at the bottom */
+		  left: 30px; /* show in the left */
+		  z-index: 99; /* show at the top */
+		  font-size: 30px;
+		  outline: none;
+		  background-color: #fff;
+		  color: #fff;
+		  cursor: pointer;
+		  padding: -15px 15px 15px 15px;
+		  border-radius: 30px; /* round */
+		}
+
+		.back-to-top:hover {
+		  background-color: #FF9B8C;
+		  color: #FFF;
+		}
